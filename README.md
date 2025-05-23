@@ -57,12 +57,15 @@ Getting Started:
 Clone the repo:
 
 git clone https://github.com/Charansiddam/shoppyglobe.git
+
 cd shoppyglobe
 
 Install dependencies:
+
 npm install
 
 Run the dev server:
+
 npm run dev
 
 Visit http://localhost:5174 in your browser.
