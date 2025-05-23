@@ -1,0 +1,20 @@
+.suggestionsContainer {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.suggestionsContainer h2 {
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    color: #333;
+    text-align: center;
+}
+
+.suggestionsList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}

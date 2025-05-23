@@ -1,0 +1,137 @@
+.cartContainer {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.cartTitle {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.cartItems {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cartItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 15px;
+}
+
+.cartItem:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+
+.cartItemImage {
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.cartItemDetails {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.cartItemTitle {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #34495e;
+}
+
+.cartItemPrice {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.quantityControls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.quantityButton {
+    background-color: #e07a5f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.quantityButton:hover {
+    background-color: #d45d3e;
+}
+
+.itemQuantity {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+
+.removeButton {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.removeButton:hover {
+    background-color: #c0392b;
+}
+
+.cartTotal {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.checkoutButton {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.checkoutButton:hover {
+    background-color: #218838;
+}
+
+.emptyCartMessage {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.1em;
+    color: #7f8c8d;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
